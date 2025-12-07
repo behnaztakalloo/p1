@@ -1,0 +1,101 @@
+.cc-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.cc-card {
+  background: radial-gradient(circle at top, #262f67 0, #050018 40%, #050018 100%);
+  border-radius: 18px;
+  padding: 20px 22px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.cc-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.cc-subtitle {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 16px;
+}
+
+.cc-input-row {
+  margin-bottom: 12px;
+}
+
+.cc-label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.cc-input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 999px;
+  border: 1px solid #3b4a7b;
+  background: #050018;
+  color: #fff;
+  font-size: 13px;
+}
+
+.cc-input:focus {
+  outline: none;
+  border-color: #5d3fd3;
+}
+
+.cc-check-btn {
+  width: 100%;
+  padding: 9px;
+  border-radius: 999px;
+  border: none;
+  background: #5d3fd3;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.cc-check-btn:hover {
+  background: #4a2fb7;
+}
+
+.cc-result {
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+
+.cc-result-ok {
+  background: #e1ffe6;
+  color: #1b7a2f;
+}
+
+.cc-result-bad {
+  background: #ffe1e1;
+  color: #b3261e;
+}
+
+.cc-download-btn {
+  width: 100%;
+  padding: 9px;
+  border-radius: 999px;
+  border: none;
+  background: #ffb400;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.cc-download-btn:hover {
+  background: #e09c00;
+}
